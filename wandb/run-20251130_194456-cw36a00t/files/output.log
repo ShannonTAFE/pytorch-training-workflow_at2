@@ -1,0 +1,13 @@
+[INFO] Using device: mps
+Files already downloaded and verified
+Files already downloaded and verified
+[INFO] First batch images: torch.Size([64, 3, 32, 32])
+[INFO] First batch labels: torch.Size([64])
+[INFO] Model parameters: 1,117,354
+
+===== Epoch 1/1 =====
+[INFO] Checkpoint saved: outputs/best_model.pth
+
+===== Final Evaluation (Test Set) =====
+[RESULT] Test Accuracy: 51.33%
+[INFO] Confusion matrix saved.

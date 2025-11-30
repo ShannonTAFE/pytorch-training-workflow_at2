@@ -1,0 +1,47 @@
+{
+  "os": "macOS-15.6.1-arm64-arm-64bit",
+  "python": "CPython 3.10.19",
+  "startedAt": "2025-11-30T11:44:56.784721Z",
+  "args": [
+    "--epochs",
+    "5",
+    "--batch-size",
+    "128",
+    "--lr",
+    "1e-3",
+    "--epochs",
+    "1",
+    "--batch-size",
+    "64",
+    "--wandb-name",
+    "run_bs_64"
+  ],
+  "program": "/Users/shannonrobinson/Library/CloudStorage/OneDrive-TAFE/Sem2/managing-data/mac_pytorch_at2/train.py",
+  "codePath": "train.py",
+  "codePathLocal": "train.py",
+  "email": "20075186@tafe.wa.edu.au",
+  "root": "/Users/shannonrobinson/Library/CloudStorage/OneDrive-TAFE/Sem2/managing-data/mac_pytorch_at2",
+  "host": "Shannons-MacBook-Air.local",
+  "executable": "/Users/shannonrobinson/miniforge3/envs/pytorch_env_at2/bin/python",
+  "cpu_count": 8,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "494384795648",
+      "used": "140179447808"
+    }
+  },
+  "memory": {
+    "total": "17179869184"
+  },
+  "apple": {
+    "name": "Apple M1",
+    "ecpuCores": 4,
+    "pcpuCores": 4,
+    "gpuCores": 7,
+    "memoryGb": 16,
+    "swapTotalBytes": "4294967296",
+    "ramTotalBytes": "17179869184"
+  },
+  "writerId": "ruyxcxycvbnx5wfvufgn4adf37x99ilb"
+}

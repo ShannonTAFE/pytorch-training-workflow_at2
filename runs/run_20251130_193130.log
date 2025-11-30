@@ -1,0 +1,25 @@
+====================================================
+[RUN] Sun 30 Nov 2025 19:31:30 AWST
+[RUN] Host: Shannons-MacBook-Air.local
+[RUN] Launch mode: single-process-mps
+[RUN] World size: 1
+[RUN] CUDA GPUs detected: 0
+[RUN] MPS available: 1
+[RUN] Log file: runs/run_20251130_193130.log
+[RUN] Default args: --epochs 5 --batch-size 128 --lr 1e-3 --tracker wandb
+[RUN] User args:    --epochs 1
+====================================================
+[INFO] Starting training...
++ python train.py --epochs 5 --batch-size 128 --lr 1e-3 --tracker wandb --epochs 1
+usage: train.py [-h] [--data-dir DATA_DIR] [--output-dir OUTPUT_DIR]
+                [--batch-size BATCH_SIZE] [--epochs EPOCHS] [--lr LR]
+                [--momentum MOMENTUM] [--weight-decay WEIGHT_DECAY]
+                [--num-workers NUM_WORKERS] [--val-split VAL_SPLIT]
+                [--seed SEED] [--wandb-project WANDB_PROJECT]
+                [--wandb-name WANDB_NAME]
+train.py: error: unrecognized arguments: --tracker wandb
+[ERROR] Training run failed with exit code 2.
+[HINT] Common issues:
+  - CUDA out of memory: try reducing --batch-size.
+  - Missing W&B login: run 'wandb login' in this environment.
+  - DDP mismatch: ensure train.py is compatible with torchrun if using multi-GPU.

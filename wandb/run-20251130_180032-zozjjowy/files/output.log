@@ -1,0 +1,63 @@
+[INFO] Using device: mps
+Downloading https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz to data/cifar-10-python.tar.gz
+100%|████████████████████████████████████████| 170M/170M [01:08<00:00, 2.49MB/s]
+Extracting data/cifar-10-python.tar.gz to data
+Files already downloaded and verified
+[INFO] First batch images: torch.Size([128, 3, 32, 32])
+[INFO] First batch labels: torch.Size([128])
+[INFO] Model parameters: 1,117,354
+
+===== Epoch 1/20 =====
+[INFO] Checkpoint saved: outputs/best_model.pth
+
+===== Epoch 2/20 =====
+[INFO] Checkpoint saved: outputs/best_model.pth
+
+===== Epoch 3/20 =====
+
+===== Epoch 4/20 =====
+[INFO] Checkpoint saved: outputs/best_model.pth
+
+===== Epoch 5/20 =====
+[INFO] Checkpoint saved: outputs/best_model.pth
+
+===== Epoch 6/20 =====
+
+===== Epoch 7/20 =====
+[INFO] Checkpoint saved: outputs/best_model.pth
+
+===== Epoch 8/20 =====
+[INFO] Checkpoint saved: outputs/best_model.pth
+
+===== Epoch 9/20 =====
+
+===== Epoch 10/20 =====
+[INFO] Checkpoint saved: outputs/best_model.pth
+
+===== Epoch 11/20 =====
+
+===== Epoch 12/20 =====
+
+===== Epoch 13/20 =====
+[INFO] Checkpoint saved: outputs/best_model.pth
+
+===== Epoch 14/20 =====
+[INFO] Checkpoint saved: outputs/best_model.pth
+
+===== Epoch 15/20 =====
+
+===== Epoch 16/20 =====
+[INFO] Checkpoint saved: outputs/best_model.pth
+
+===== Epoch 17/20 =====
+
+===== Epoch 18/20 =====
+
+===== Epoch 19/20 =====
+
+===== Epoch 20/20 =====
+[INFO] Checkpoint saved: outputs/best_model.pth
+
+===== Final Evaluation (Test Set) =====
+[RESULT] Test Accuracy: 80.28%
+[INFO] Confusion matrix saved.

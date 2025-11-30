@@ -1,0 +1,67 @@
+====================================================
+[RUN] Sun 30 Nov 2025 19:44:52 AWST
+[RUN] Host: Shannons-MacBook-Air.local
+[RUN] Launch mode: single-process-mps
+[RUN] World size: 1
+[RUN] CUDA GPUs detected: 0
+[RUN] MPS available: 1
+[RUN] Log file: runs/run_20251130_194452.log
+[RUN] Default args: --epochs 5 --batch-size 128 --lr 1e-3
+[RUN] User args:    --epochs 1 --batch-size 64 --wandb-name run_bs_64
+====================================================
+[INFO] Starting training...
++ python train.py --epochs 5 --batch-size 128 --lr 1e-3 --epochs 1 --batch-size 64 --wandb-name run_bs_64
+wandb: WARNING Failed to create global config settings in: /Users/shannonrobinson/.config/wandb. Settings will not be persisted.
+wandb: Currently logged in as: 20075186 (20075186-north-metropolitan-tafe) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: setting up run cw36a00t
+wandb: Tracking run with wandb version 0.23.0
+wandb: Run data is saved locally in /Users/shannonrobinson/Library/CloudStorage/OneDrive-TAFE/Sem2/managing-data/mac_pytorch_at2/wandb/run-20251130_194456-cw36a00t
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run run_bs_64
+wandb: ⭐️ View project at https://wandb.ai/20075186-north-metropolitan-tafe/pytorch_cifar10_workflow
+wandb: 🚀 View run at https://wandb.ai/20075186-north-metropolitan-tafe/pytorch_cifar10_workflow/runs/cw36a00t
+[INFO] Using device: mps
+Files already downloaded and verified
+Files already downloaded and verified
+[INFO] First batch images: torch.Size([64, 3, 32, 32])
+[INFO] First batch labels: torch.Size([64])
+[INFO] Model parameters: 1,117,354
+
+===== Epoch 1/1 =====
+[INFO] Checkpoint saved: outputs/best_model.pth
+
+===== Final Evaluation (Test Set) =====
+[RESULT] Test Accuracy: 51.33%
+wandb: updating run metadata
+wandb: updating run metadata; uploading history steps 1-1, summary, console lines 12-12
+wandb: uploading history steps 1-1, summary, console lines 12-12; uploading output.log; uploading wandb-summary.json
+wandb: uploading history steps 1-1, summary, console lines 12-12; uploading config.yaml
+wandb: uploading data
+wandb: 
+wandb: Run history:
+wandb:      epoch ▁
+wandb:   test_acc ▁
+wandb:  test_loss ▁
+wandb:  train_acc ▁
+wandb: train_loss ▁
+wandb:    val_acc ▁
+wandb:   val_loss ▁
+wandb: 
+wandb: Run summary:
+wandb:      epoch 1
+wandb:   test_acc 0.5133
+wandb:  test_loss 1.32874
+wandb:  train_acc 0.36504
+wandb: train_loss 1.70586
+wandb:    val_acc 0.4842
+wandb:   val_loss 1.41399
+wandb: 
+wandb: 🚀 View run run_bs_64 at: https://wandb.ai/20075186-north-metropolitan-tafe/pytorch_cifar10_workflow/runs/cw36a00t
+wandb: ⭐️ View project at: https://wandb.ai/20075186-north-metropolitan-tafe/pytorch_cifar10_workflow
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20251130_194456-cw36a00t/logs
+[INFO] Confusion matrix saved.
+
+Training complete.
+====================================================
+[DONE] Training run completed successfully.
