@@ -1,0 +1,60 @@
+[INFO] Using device: cuda
+[INFO] First batch images: torch.Size([128, 3, 32, 32])
+[INFO] First batch labels: torch.Size([128])
+[INFO] Model parameters: 1,117,354
+
+===== Epoch 1/20 =====
+[INFO] Checkpoint saved: outputs/best_model.pth
+
+===== Epoch 2/20 =====
+[INFO] Checkpoint saved: outputs/best_model.pth
+
+===== Epoch 3/20 =====
+[INFO] Checkpoint saved: outputs/best_model.pth
+
+===== Epoch 4/20 =====
+[INFO] Checkpoint saved: outputs/best_model.pth
+
+===== Epoch 5/20 =====
+[INFO] Checkpoint saved: outputs/best_model.pth
+
+===== Epoch 6/20 =====
+[INFO] Checkpoint saved: outputs/best_model.pth
+
+===== Epoch 7/20 =====
+
+===== Epoch 8/20 =====
+[INFO] Checkpoint saved: outputs/best_model.pth
+
+===== Epoch 9/20 =====
+
+===== Epoch 10/20 =====
+[INFO] Checkpoint saved: outputs/best_model.pth
+
+===== Epoch 11/20 =====
+
+===== Epoch 12/20 =====
+
+===== Epoch 13/20 =====
+[INFO] Checkpoint saved: outputs/best_model.pth
+
+===== Epoch 14/20 =====
+[INFO] Checkpoint saved: outputs/best_model.pth
+
+===== Epoch 15/20 =====
+
+===== Epoch 16/20 =====
+
+===== Epoch 17/20 =====
+
+===== Epoch 18/20 =====
+[INFO] Checkpoint saved: outputs/best_model.pth
+
+===== Epoch 19/20 =====
+
+===== Epoch 20/20 =====
+[INFO] Checkpoint saved: outputs/best_model.pth
+
+===== Final Evaluation (Test Set) =====
+[RESULT] Test Accuracy: 81.54%
+[INFO] Confusion matrix saved.

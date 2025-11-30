@@ -1,0 +1,83 @@
+_wandb:
+    value:
+        cli_version: 0.23.0
+        e:
+            dpkiptzz9elx4w2u7mjiqwelrusqiziq:
+                codePath: train.py
+                codePathLocal: train.py
+                cpu_count: 6
+                cpu_count_logical: 12
+                cudaVersion: "12.4"
+                disk:
+                    /:
+                        total: "253055008768"
+                        used: "41985290240"
+                email: 20075186@tafe.wa.edu.au
+                executable: /usr/bin/python3
+                git:
+                    commit: 9ed55e3c6819c539a07edecb41ce9c8e219f7b63
+                    remote: https://github.com/ShannonTAFE/pytorch-training-workflow_at2.git
+                gpu: NVIDIA L4
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ada
+                      cudaCores: 7424
+                      memoryTotal: "24152899584"
+                      name: NVIDIA L4
+                      uuid: GPU-a3058fef-17a4-589d-76ed-19c87d9798b6
+                host: 939acccbc2f1
+                memory:
+                    total: "56863330304"
+                os: Linux-6.6.105+-x86_64-with-glibc2.35
+                program: /content/pytorch-training-workflow_at2/train.py
+                python: CPython 3.12.12
+                root: /content/pytorch-training-workflow_at2
+                startedAt: "2025-11-30T16:46:22.625300Z"
+                writerId: dpkiptzz9elx4w2u7mjiqwelrusqiziq
+        m: []
+        python_version: 3.12.12
+        t:
+            "1":
+                - 1
+                - 5
+                - 41
+                - 53
+                - 105
+            "2":
+                - 1
+                - 5
+                - 41
+                - 53
+                - 105
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.12.12
+            "5": 0.23.0
+            "12": 0.23.0
+            "13": linux-x86_64
+batch_size:
+    value: 128
+data_dir:
+    value: data
+epochs:
+    value: 20
+lr:
+    value: 0.01
+momentum:
+    value: 0.9
+num_workers:
+    value: 4
+output_dir:
+    value: outputs
+seed:
+    value: 42
+val_split:
+    value: 0.1
+wandb_name:
+    value: run
+wandb_project:
+    value: pytorch_cifar10_workflow
+weight_decay:
+    value: 0.0005
